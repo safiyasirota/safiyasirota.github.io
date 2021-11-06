@@ -5,6 +5,8 @@ navbar:
   right:
     - text: "Resume"
       href: resume.html
+    - text: "Plotly"
+      href: dashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<safiya.sirota@gmail.com>
     - icon: fa-github fa-lg

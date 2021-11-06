@@ -1,0 +1,74 @@
+---
+title: "Manhattan Restaurant Inspection Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    vertical_layout: scroll
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+library(flexdashboard)
+```
+
+```{r}
+set.seed(222)
+data("rest_inspec")
+
+mh_inspec <-
+  rest_inspec %>% 
+  filter(boro == "MANHATTAN") %>% 
+  mutate(
+    camis = as.factor(camis),
+    zipcode = as.factor(zipcode),
+    year_month = format(as.Date(inspection_date), "%Y-%m")
+    ) %>%
+  drop_na(score, year_month)
+```
+
+Row {data-height=650}
+-----------------------------------------------------------------------
+
+### Sample of Inspection Scores over Time by Cuisine Type
+
+```{r}
+mh_inspec %>% 
+  sample_n(5000) %>% 
+  group_by(cuisine_description, year_month) %>% 
+  summarize(avg_score = mean(score)) %>% 
+  plot_ly(x = ~year_month, y = ~avg_score, type = "scatter", 
+          mode = "markers", color = ~cuisine_description,
+          colors = "viridis")
+```
+
+Row {data-height=650}
+-----------------------------------------------------------------------
+
+### Pizzeria Cleanliness by Zip Code
+
+```{r}
+mh_inspec %>% 
+  filter(cuisine_description == "Pizza") %>% 
+  mutate(zipcode = fct_reorder(zipcode, desc(score))) %>% 
+  plot_ly(
+    y = ~score, x = ~zipcode, color = ~zipcode,
+    type = "box", colors = "viridis")
+```
+
+### Restaurants on Broadway with Worse than Average Inspection Scores
+
+```{r}
+mh_inspec %>% 
+  filter(
+    street == "BROADWAY",
+    score > mean(pull(mh_inspec, score))
+    ) %>% 
+  group_by(dba) %>% 
+  summarize(avg_score = mean(score)) %>% 
+  mutate(dba = fct_reorder(as.factor(dba), desc(avg_score))) %>% 
+  plot_ly(x = ~dba, y = ~avg_score, type = "bar", color = ~dba,
+          colors = "viridis") %>% 
+  layout(xaxis = list(autotick = F, dtick = 10000))
+```

@@ -1,0 +1,10 @@
+---
+title: "Plotly"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
