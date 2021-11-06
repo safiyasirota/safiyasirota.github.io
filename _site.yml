@@ -1,0 +1,16 @@
+name: "Safiya Sirota"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "Resume"
+      href: resume.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<safiya.sirota@gmail.com>
+    - icon: fa-github fa-lg
+      href: http://github.com/safiyasirota/
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/safiya-sirota/
+output:
+  html_document:
+    theme: darkly

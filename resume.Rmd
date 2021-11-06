@@ -1,0 +1,56 @@
+---
+title: "Resume"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+### Publications
+
+(In press) Nesoff ED, Gutkind S, __Sirota S__, McKowen AL, Veldhuis CB. Mental health and economic stressors associated with high-risk drinking and increased alcohol consumption early in the COVID-19 pandemic. Prev Med. 2021:106854. 10.1016/j.ypmed.2021.106854. [link to article](https://www.sciencedirect.com/science/article/pii/S0091743521004230)
+
+### Grants
+
+T32MH128395-01<br/>
+Title: Social Determinants of HIV<br/>
+PI: Gina Wingood<br/>
+Role: Pre-doctoral Fellow<br/>
+Date: July 1, 2021 - June 30, 2026<br/>
+Budget (2021): $246,244<br/>
+Total Direct Costs: $1,231,220
+
+### Teaching
+
+* __Wellesley College, Fall 2020:__ Supplemental Instructor for CS230 (Data Structures)
+
+* __Wellesley College, Spring 2020:__ Mathematics Tutor
+
+* __Wellesley College, Fall 2018-Summer 2020:__ Teaching Assistant for PSYC205 
+  (Statistics for Psychology)
+  
+### Work Experience
+
+* __Milliman Inc., Spring 2021:__ Actuarial Intern
+
+* __Walker School in Needham, MA, Summer 2019:__ Clinical Intern
+
+### Skills
+
+* R, Rmarkdown, tidyverse, ggplot
+
+* SPSS
+
+* Java
+
+* Python
+
+* SQL
+
+* Excel, VBA
+
+* Qualtrics
+
+* SAS
+
+* Proficient in Spanish

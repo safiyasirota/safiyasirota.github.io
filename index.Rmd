@@ -1,0 +1,14 @@
+---
+title: "Safiya Sirota"
+output: html_document
+---
+
+<center>
+<img src="images/sirota_pic.jpg" style="width:35%">
+</center>
+
+## About
+
+I am a pre-doctoral fellow in Biostatistics at [Columbia University's Mailman School of Public Health](https://www.publichealth.columbia.edu/). I received by B.A. in Mathematics and Psychology from [Wellesley College](https://www.wellesley.edu/) in 2021.
+
+My research interests include causal inference, social determinants of health, and mental health and substance use disorder treatment. I am also enthusiastic about effective data visualization and data ethics.
