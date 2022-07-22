@@ -4,7 +4,7 @@ output: html_document
 ---
 
 <center>
-<img src="images/sirota_pic.jpg" style="width:35%">
+<img src="images/Saf0043-Edit.jpg" style="width:35%">
 </center>
 
 ## About
