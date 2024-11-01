@@ -1,9 +1,8 @@
 ---
 title: "Resume"
-output: 
-  html_document:
+format: 
+  html:
     toc: true
-    toc_float: true
 ---
 
 ### Publications
@@ -31,26 +30,21 @@ Total Direct Costs: $1,231,220
   
 ### Work Experience
 
-* __Milliman Inc., Spring 2021:__ Actuarial Intern
-
-* __Walker School in Needham, MA, Summer 2019:__ Clinical Intern
+<ul>
+  <li>__Milliman Inc., Spring 2021:__ Actuarial Intern</li>
+  <li>__Walker School in Needham, MA, Summer 2019:__ Clinical Intern</li>
+</ul>
 
 ### Skills
 
-* R, Rmarkdown, tidyverse, ggplot
-
-* SPSS
-
-* Java
-
-* Python
-
-* SQL
-
-* Excel, VBA
-
-* Qualtrics
-
-* SAS
-
-* Proficient in Spanish
+<ul>
+    <li>R, Rmarkdown, tidyverse, ggplot</li>
+    <li>SPSS</li>
+    <li>Java</li>
+    <li>Python</li>
+    <li>SQL</li>
+    <li>Excel, VBA</li>
+    <li>Qualtrics</li>
+    <li>SAS</li>
+    <li>Proficient in Spanish</li>
+</ul>

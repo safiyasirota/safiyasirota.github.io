@@ -1,6 +1,6 @@
 ---
 title: "Safiya Sirota"
-output: html_document
+format: html
 ---
 
 <center>
