@@ -9,6 +9,7 @@ format: html
 
 ## About
 
+
 I am a pre-doctoral fellow in Biostatistics at [Columbia University's Mailman School of Public Health](https://www.publichealth.columbia.edu/). I received by B.A. in Mathematics and Psychology from [Wellesley College](https://www.wellesley.edu/) in 2021.
 
-My research interests include causal inference, social determinants of health, and mental health and substance use disorder treatment. I am also enthusiastic about effective data visualization and data ethics.
+My research interests include causal inference, social determinants of health, and mental health and substance use disorder treatment. I am also enthusiastic about effective data visualization and data ethics. My CV can be found <a href="20241217_cv.pdf">here</a>.

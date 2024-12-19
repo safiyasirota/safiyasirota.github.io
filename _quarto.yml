@@ -6,8 +6,6 @@ website:
   title: "Home"
   navbar:
     right:
-      - text: "Resume"
-        href: resume.html
       - icon: envelope
         href: mailto:<sns2189@cumc.columbia.edu>
       - icon: github
